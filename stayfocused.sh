@@ -33,8 +33,7 @@ done < "$BLOCKLIST"
 
 # Block hours as seconds, call sleep
 timeToBlock=$1
-echo $timeToBlock
-echo '[+] Block for $timeToBlock seconds.'
+echo '[+] Blocking...'
 sleep $timeToBlock
 
 echo "[+] Tried your best!"
